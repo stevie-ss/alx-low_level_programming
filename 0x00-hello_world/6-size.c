@@ -1,9 +1,10 @@
 #include <stdio.h>
+
 /**
-* main - A program that prints the size of various computer types
-* Description: The program should print that
-* Return 0 (Success)
+*main -Entry point
+*Return: Always 0 (Success)
 */
+
 int main(void)
 {
 printf("Size of a char: %zu byte(s)\n", sizeof(char));
